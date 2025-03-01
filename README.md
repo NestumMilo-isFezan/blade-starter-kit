@@ -28,7 +28,22 @@ composer install
 npm install
 ```
 
-4. And finally:
+4. Copy the environment file:
+```bash
+cp .env.example .env
+```
+
+5. Generate application key:
+```bash
+php artisan key:generate
+```
+
+6. Run migrations:
+```bash
+php artisan migrate
+```
+
+7. And finally:
 ```bash
 composer dev
 ```
