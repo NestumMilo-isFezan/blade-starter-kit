@@ -14,7 +14,7 @@ A modern Laravel starter kit with Blade and Alpine.js. This project includes pre
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/blade-starter-kit.git
+gh repo clone SalarHoushvand/Laravel-blade-starter-kit
 cd blade-starter-kit
 ```
 
