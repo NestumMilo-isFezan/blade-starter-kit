@@ -1,7 +1,7 @@
-# Laravel Starter Kit with Blade and Alpine.js
+# Laravel 12 Starter Kit with Blade and Alpine.js
 
 
-A modern Laravel starter kit with Blade and Alpine.js. This project includes pre-built components from PenguinUI to accelerate your development process.
+A modern Laravel 12 starter kit with Blade and Alpine.js. This project includes pre-built components from PenguinUI to accelerate your development process.
 
 ## Features
 
