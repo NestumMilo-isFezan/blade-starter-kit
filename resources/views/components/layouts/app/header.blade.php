@@ -13,5 +13,5 @@
 
     @include('partials.scripts')
 </body>
-
+@livewireScripts
 </html>

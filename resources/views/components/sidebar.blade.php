@@ -30,7 +30,7 @@
         <!-- Main Navigation -->
         <ul class="flex flex-col gap-2">
             <li>
-                <x-sidebar-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                <x-sidebar-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" wire:navigate.hover>
                     <x-icons.home variant="outline" />
                     <span>{{ __('Dashboard') }}</span>
                 </x-sidebar-link>
@@ -40,7 +40,7 @@
         <!-- Bottom Navigation -->
         <ul class="flex flex-col gap-2 mt-auto">
             <li>
-                <x-sidebar-link href="https://github.com/laravel/livewire-starter-kit" target="_blank">
+                <x-sidebar-link href="https://github.com/NestumMilo-isFezan/blade-starter-kit" target="_blank">
                     <x-icons.folder-git-2 />
                     <span>{{ __('Repository') }}</span>
                 </x-sidebar-link>
