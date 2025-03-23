@@ -1,7 +1,9 @@
-# Laravel 12 Starter Kit with Blade and Alpine.js
+# Laravel 12 Starter Kit with TALL stacks without FluxUI
 
 
-A modern Laravel 12 starter kit with Blade and Alpine.js. This project includes pre-built components from PenguinUI to accelerate your development process.
+A modern Laravel 12 starter kit with TALL stacks without FluxUI
+This project includes pre-built components from PenguinUI to accelerate your development process.
+P/S notes : This is my fork project from this repo: https://github.com/SalarHoushvand/blade-starter-kit , Please do support his project.
 
 ## Features
 
@@ -10,11 +12,16 @@ A modern Laravel 12 starter kit with Blade and Alpine.js. This project includes 
 - 🔒 Authentication scaffolding
 - 🎨 TailwindCSS 4.x for styling
 
+## TODO in this Fork
+- 👁️ Laravel Livewire
+- 🗝️ Spatie Roles and Permission
+- 👥 Multi-Tenants
+
 ## Getting Started
 
 1. Clone this repository:
 ```bash
-gh repo clone SalarHoushvand/blade-starter-kit
+git clone https://github.com/NestumMilo-isFezan/blade-starter-kit.git
 cd blade-starter-kit
 ```
 
@@ -50,7 +57,7 @@ composer dev
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+This is my first-time doing contribution outside organizations and school projects.
 
 ## License
 
@@ -60,5 +67,7 @@ This project is open-sourced software licensed under the [MIT license](https://o
 
 - [Laravel](https://laravel.com)
 - [Alpine.js](https://alpinejs.dev)
+- [Livewire](https://livewire-laravel.com)
 - [PenguinUI](https://penguinui.com)
 - [TailwindCSS](https://tailwindcss.com)
+- [GitHub](https://github.com/SalarHoushvand/blade-starter-kit)
