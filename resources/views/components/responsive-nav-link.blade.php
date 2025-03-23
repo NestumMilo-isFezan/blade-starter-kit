@@ -7,6 +7,6 @@
             : 'flex items-center gap-2 w-full text-on-surface focus:underline dark:text-on-surface-dark';
 @endphp
 
-<a {{ $attributes->merge(['class' => $classes]) }}>
+<a {{ $attributes->merge(['class' => $classes]) }} wire:navigate>
     {{ $slot }}
 </a>
