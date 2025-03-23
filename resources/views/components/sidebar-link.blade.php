@@ -7,6 +7,6 @@
             : 'flex items-center gap-4 px-4 py-2 rounded-radius hover:bg-primary/5 font-medium text-sm text-on-surface underline-offset-2 hover:text-on-surface-strong focus:outline-hidden focus:underline dark:text-on-surface-dark dark:hover:bg-primary-dark/5 dark:hover:text-on-surface-dark-strong';
 @endphp
 
-<a {{ $attributes->merge(['class' => $classes]) }}>
+<a {{ $attributes->merge(['class' => $classes]) }} wire:navigate.hover>
     {{ $slot }}
 </a>

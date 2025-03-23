@@ -10,15 +10,28 @@
         <!-- Desktop Menu -->
         <ul class="hidden items-center gap-4 sm:flex">
             <li>
-                <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">{{ __('Dashboard') }}</x-nav-link>
+                <x-nav-link
+                    href="{{ route('dashboard') }}"
+                    :active="request()->routeIs('dashboard')"
+                >
+                    {{ __('Dashboard') }}
+                </x-nav-link>
             </li>
             <li>
-                <x-nav-link href="https://github.com/laravel/livewire-starter-kit"
-                    target="_blank">{{ __('Repository') }}</x-nav-link>
+                <x-nav-link
+                    href="https://github.com/laravel/livewire-starter-kit"
+                    target="_blank"
+                >
+                    {{ __('Repository') }}
+                </x-nav-link>
             </li>
             <li>
-                <x-nav-link href="https://laravel.com/docs/starter-kits"
-                    target="_blank">{{ __('Docs') }}</x-nav-link>
+                <x-nav-link
+                    href="https://laravel.com/docs/starter-kits"
+                    target="_blank"
+                >
+                    {{ __('Docs') }}
+                </x-nav-link>
             </li>
 
             <x-dropdown>
@@ -62,7 +75,8 @@
 
                             <x-dropdown-link :href="route('logout')"
                                 onclick="event.preventDefault();
-                                            this.closest('form').submit();">
+                                            this.closest('form').submit();"
+                            >
                                 <x-icons.arrow-right-start-on-rectangle variant="mini" />
                                 {{ __('Log Out') }}
                             </x-dropdown-link>
@@ -132,7 +146,8 @@
 
                     <x-responsive-nav-link :href="route('logout')"
                         onclick="event.preventDefault();
-                                    this.closest('form').submit();">
+                                    this.closest('form').submit();"
+                    >
                         <x-icons.arrow-right-start-on-rectangle variant="mini" />
                         {{ __('Log Out') }}
                     </x-responsive-nav-link>

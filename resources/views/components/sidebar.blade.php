@@ -30,7 +30,7 @@
         <!-- Main Navigation -->
         <ul class="flex flex-col gap-2">
             <li>
-                <x-sidebar-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" wire:navigate.hover>
+                <x-sidebar-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                     <x-icons.home variant="outline" />
                     <span>{{ __('Dashboard') }}</span>
                 </x-sidebar-link>
